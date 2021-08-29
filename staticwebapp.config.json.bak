@@ -1,0 +1,16 @@
+{
+    "routes": [
+        {
+            "route": "/login",
+            "rewrite": "/.auth/login/github"
+        },
+        {
+            "route": "/logout",
+            "rewrite": "/.auth/logout"
+        },
+        {
+            "route": "/admin.html",
+            "allowedRoles": ["admin"]
+        }
+    ]
+}
