@@ -17,7 +17,7 @@ function App() {
         >
           Learn React
         </a>
-	<a href="/admin.html">Admin</a>
+	<a href="/admin.html">Admin2</a>
 	<a href="/login.html">login</a>
 	<a href="/logout.html">logout</a>
       </header>
